@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppActivity1</string>
+    <string name="el_juego_de_las_adivinanzas">¡El juego de las adivinanzas!</string>
+    <string name="play">PLAY</string>
+    <string name="qu_sera">¡¿Qué sera...?!</string>
+    <string name="todo">TODO</string>
+    <string name="la_ara_a">La araña</string>
+    <string name="regresar_a_la_adivinanza_anterior">Regresar a la adivinanza anterior.</string>
+    <string name="fallaste_no_te_rindas_vuelve_a_intebtarlo">Fallaste, no te rindas ¡vuelve a intebtarlo!</string>
+    <string name="qu_ser">¿Qué será...?</string>
+    <string name="el_pezcado_asado">El pezcado asado</string>
+    <string name="vuelve_a_intentarlo">¡vuelve a intentarlo!</string>
+    <string name="un_policia_de_transito">Un policia de transito</string>
+    <string name="volver_al_inicio">Volver al inicio</string>
+    <string name="volver_a_jugar">Volver a jugar</string>
+    <string name="super_man">Super-man</string>
+</resources>

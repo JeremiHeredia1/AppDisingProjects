@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="80dp"
+        android:text="Fallaste"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="80dp"
+        android:text="¡Vuelve a intentarlo!"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="80dp"
+        android:text="¡No te rindas!"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/anteriorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="¡vuelve a intentarlo!"
+        android:textColor="@color/black" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="388dp"
+        android:layout_height="241dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="259dp"
+        android:src="@drawable/zinetsu_1" />
+
+
+</RelativeLayout>

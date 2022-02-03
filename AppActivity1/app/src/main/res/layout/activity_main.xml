@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/el_juego_de_las_adivinanzas"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="200dp"
+      android:background="#9575CD"
+      android:fontFamily="times new roman"
+      android:textFontWeight="1000"
+      android:textColor="@color/white"/>
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:background="@drawable/boton_redondo"
+      android:fontFamily="times new roman"
+      android:text="@string/play" />
+
+  <ImageView
+      android:layout_width="280dp"
+      android:layout_height="220dp"
+      android:background="@drawable/fondo_a"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="65dp"
+      android:layout_marginBottom="263dp"
+      android:contentDescription="TODO" />
+
+
+</RelativeLayout>
+
+

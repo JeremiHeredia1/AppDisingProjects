@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qu_ser"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/gatoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="213dp"
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="El gato"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/arañaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginBottom="211dp"
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="@string/la_ara_a"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="297dp"
+        android:layout_height="218dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="353dp"
+        android:background="@drawable/img"
+        android:contentDescription="@string/todo" />
+
+</RelativeLayout>
